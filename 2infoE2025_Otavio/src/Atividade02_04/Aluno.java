@@ -8,20 +8,20 @@ package Atividade02_04;
 /**
  *
  * @author 16662272698
- */
-public class Aluno {
+ */public class Aluno {
     String nome;
-    int matricula;
+    int matricula; 
     int idade;
     
     public void exibirDados(){
-        System.out.println("\nNome do Aluno(a): "+this.nome);
-                           "\nNúmero da matricula: "+this.matricula;
-                           "\nNúmero da idade: "+this.idade;
+        System.out.println("\nNome do Aluno(a): "+this.nome+
+                            "\nNúmero da Matrícula: "+this.matricula+
+                            "\nA idade do Aluno(a): "+this.idade);
     }
-    public void fazerMatricula(){
-        do{
-            
-        }
+    
+    
+    public void fazerMatricula(Aluno matricula){
+        this.matricula = matricula.matricula + 1;
+        System.out.println("\n\n---Matrícula realizada---");
     }
-}
+ }
