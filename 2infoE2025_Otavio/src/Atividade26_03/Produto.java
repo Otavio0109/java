@@ -17,6 +17,7 @@ String nome;
 double preco;
 double porcentagemDesconto;
 double valorPagar;
+    public String descrisaoProduto;
 
 public void exibirInformacoes(){
 calcularPrecoPromocional();
